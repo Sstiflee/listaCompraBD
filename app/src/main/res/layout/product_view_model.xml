@@ -5,17 +5,8 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="CREAR PRODUCTO"
-        android:textSize="20sp" />
-
     <EditText
-        android:id="@+id/productViewModel"
+        android:id="@+id/txtNombreViewModel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -30,7 +21,7 @@
         android:padding="10dp">
 
         <EditText
-            android:id="@+id/cantidadViewModel"
+            android:id="@+id/txtcantidadViewModel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,7 +30,7 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/precioViewModel"
+            android:id="@+id/txtprecioViewModel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
